@@ -2,11 +2,10 @@ package gl51.service.impl
 
 import gl51.data.Picture
 import gl51.service.PictureService
-import gl51.service.ResizePictureService
 
 import javax.inject.Inject
 
-class ThumbnailResizePictureServiceImpl implements ResizePictureService {
+class ThumbnailResizePictureServiceImpl implements gl51.service.ResizePictureService {
 
     @Inject
     PictureService pictureService

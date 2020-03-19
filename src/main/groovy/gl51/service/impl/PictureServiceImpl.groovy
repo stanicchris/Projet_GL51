@@ -6,6 +6,7 @@ import javax.inject.Singleton
 
 @Singleton
 class PictureServiceImpl implements gl51.service.PictureService {
+
     @Override
     Picture fetchPicture() {
         return null
