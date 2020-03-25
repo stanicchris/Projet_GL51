@@ -4,4 +4,6 @@ class Picture {
 
     String name
     String path
+    Integer sizeX
+    Integer sizeY
 }
