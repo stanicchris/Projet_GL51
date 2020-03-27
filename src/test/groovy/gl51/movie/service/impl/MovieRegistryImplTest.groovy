@@ -21,9 +21,9 @@ class MovieRegistryImplTest extends Specification {
         registry.listFavorites() == []
     }
 
-    void "addind a favorites should fill in the database"() {
+    void "adding a favorites should fill in the database"() {
         when:
-        registry.addMovieToFavorites(imbdID: "aaaa")
+        registry.addMovieToFavorites("aaaaa")
         then:
         registry.listFavorites().size() == 1
     }
