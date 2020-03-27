@@ -20,5 +20,6 @@ class MovieRegistryImpl implements gl51.movie.service.MovieRegistry {
     @Override
     List<Movie> listFavorites() {
         internalRegistry
+        "ok"
     }
 }
