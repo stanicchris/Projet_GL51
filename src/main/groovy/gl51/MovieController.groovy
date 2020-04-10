@@ -7,7 +7,7 @@ import io.micronaut.http.annotation.Get
 import io.micronaut.http.HttpStatus
 import io.micronaut.http.annotation.Post
 
-
+//test
 @Controller("/movie")
 class MovieController {
 
